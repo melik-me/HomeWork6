@@ -8,7 +8,7 @@ role_dict = {
     "name": "Roland Deschain",
     "type": "The Gunslinger",
     "level": "80",
-    "book": "26"
+    "book": "422"
 }
 
 resp = requests.post(base_url + "roles/", data=role_dict)
